@@ -1,0 +1,44 @@
+body {
+  font-family: bradley-hand, monaco, luminari;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #550000;
+  margin: 0;
+}
+
+@media (max-width: 750) {
+  h1 {
+    line-height: 2.9rem;
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+#main {
+  margin: 40px 10px;
+  padding: 5px;
+  background: #789;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 17px 3 5px 3;
+  color: dark green;
+}
+
+ul {
+  maxwidth: 700px;
+  margin: 5 auto 50px auto;
+  line-height: 1.5;
+  text-align: left;
+}
